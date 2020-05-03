@@ -1,0 +1,16 @@
+registrations
+*-Test
+/target
+/lib
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.idea
+.DS_Store
+*.iml
+*.maillist
