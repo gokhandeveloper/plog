@@ -16,7 +16,7 @@
 (defn register [name email]
   (let [registration (str name "," email "\n")]
     (spit "registrations.maillist" registration :append true)
-    (-> (redirect "/products")
+    (-> (redirect "/")
         (assoc :session {:message (str "Registration of " email " successful.")}))))
 
 (defn validate-registration [name email]
